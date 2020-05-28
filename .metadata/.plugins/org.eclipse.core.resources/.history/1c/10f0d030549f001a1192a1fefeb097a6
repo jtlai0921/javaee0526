@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="BIG5">
+<title>Insert title here</title>
+</head>
+<body bgcolor="yellow">
+<h1>this is my web</h1>
+<h2>this is my web</h2>
+<h3>this is my web</h3>
+<h4>this is my web</h4>
+<h5>this is my web</h5>
+<h7>this is my web</h7>
+<br>
+<font size="7" color="red">hjgsj</font>
+<font size="5" color="blue">hxjk</font><br>
+'zxl';ldkf<br>
+;lsd<br>
+
+<hr>
+<table width=600 align=center border=1>
+	<tr>
+		<td>A
+		<td>B
+		<td>c
+	<tr>
+		<td>10
+		<td>20
+		<td>30
+
+</table>
+<hr>
+<img src="101.jpg">
+<a href="http://www.google.com" target=_blank>google</a>
+</body>
+</html>
