@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet("/testServlet")
+@WebServlet("/testServelet")
 public class testServelet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
    
@@ -25,11 +25,11 @@ public class testServelet extends HttpServlet {
 
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		System.out.println("post");		
+		System.out.println("post");
+
 		PrintWriter out=response.getWriter();
-		String NAME=request.getParameter("name");
 		
-		out.println("name="+NAME);
+		out.println(" post");
 	}
 
 }

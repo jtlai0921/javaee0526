@@ -5,7 +5,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<form action="../testServlet" method="post">
+<form action="../testServlet" method="get">
 ŚW:<input type="text" name="name"><br>
 <input type="submit" value="ok">
 </form>
