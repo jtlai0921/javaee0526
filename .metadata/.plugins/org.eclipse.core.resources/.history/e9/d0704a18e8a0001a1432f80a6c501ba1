@@ -31,7 +31,7 @@ public class testServelet extends HttpServlet {
 		String NAME=request.getParameter("name");
 		String Address=request.getParameter("address");
 		String Phone=request.getParameter("phone");
-		out.println("name="+NAME+"\n<font size=4>Address:</font>"+Address+"\nPhone:"+Phone);
+	out.println("name="+NAME+"\nAddress:"+Address+"\nPhone:"+Phone);
 		
 		
 		/*out.println("name="+NAME);

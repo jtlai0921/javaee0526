@@ -6,10 +6,10 @@
 </head>
 <body>
 <form action="../testServlet" method="post">
-名:<input type="text" name="name"><br>
-地址:<input type="text" name="address"><br>
-電話:<input type="text" name="phone"><br>
+ŚW:<input type="text" name="name"><br>
 <input type="submit" value="ok">
+</form>
+
 </form>
 </body>
 </html>

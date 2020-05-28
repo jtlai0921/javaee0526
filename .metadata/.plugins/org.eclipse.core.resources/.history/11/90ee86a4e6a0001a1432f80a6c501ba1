@@ -26,17 +26,13 @@ public class testServelet extends HttpServlet {
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		System.out.println("post");		
-			
 		PrintWriter out=response.getWriter();
 		String NAME=request.getParameter("name");
-		String Address=request.getParameter("address");
-		String Phone=request.getParameter("phone");
-		out.println("name="+NAME+"\n<font size=4>Address:</font>"+Address+"\nPhone:"+Phone);
-		
-		
-		/*out.println("name="+NAME);
-		out.println("Address="+Address);
-		out.println("Phone="+Phone);*/
+		String add=request.getParameter("add");
+		String tel=request.getParameter("tel");
+		out.println("name="+NAME);
+		out.println("add="+add);
+		out.println("tel="+tel);
 		
 	}
 
