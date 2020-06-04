@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="BIG5">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="../memberServlet" method="post">
+		<table width=600 align=center border=1>
+			<tr>
+				<td colspan=2 align=center><h4>會員資料</h4>
+			<tr>
+				<td width=150>姓名
+				<td><input type="text" name="name" >	
+			<tr>
+				<td width=150>地址
+				<td><input type="text" name="address">	
+			<tr>
+				<td width=150>興趣
+				<td>
+				<input type="checkbox" name="interest" value="music">音樂
+				<input type="checkbox" name="interest" value="movie">電影
+				<input type="checkbox" name="interest" value="sport">運動	
+			<tr>
+				<td width=150>性別
+				<td>
+				<input type="radio" name="sex" value="男">男
+				<input type="radio" name="sex" value="女">女
+ 			
+ 			<tr bgcolor="yellow">
+ 				<td colspan=2 align=center>訂購
+ 			
+ 			<tr>
+ 				<td>尺(25)
+ 				<td><input type="text" name="ruler">
+ 			
+ 			<tr>
+ 				<td>筆(30)
+ 				<td><input type="text" name="pen">
+ 			
+ 			
+ 			<tr>
+ 			<td>備註
+ 			<td>
+ 			<textarea rows="6" cols="40" name="memo"></textarea>
+ 			
+ 			<tr>
+ 				<td colspan=2 align=center>
+ 				<input type="submit" value="ok">
+ 				<input type="reset" value="重設">
+		
+		</table>	
+	</form>
+</body>
+</html>
