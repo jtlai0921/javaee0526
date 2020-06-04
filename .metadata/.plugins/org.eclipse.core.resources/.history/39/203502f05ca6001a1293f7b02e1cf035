@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="BIG5">
+<title>Insert title here</title>
+</head>
+<body>
+<a href="../examServlet" target=_blank>day4-examServlet</a>
+<form action="../examServlet" method="post">
+分數:<input type="text" name="x">
+<input type="submit" value="">
+
+</form>
+
+</body>
+</html>
