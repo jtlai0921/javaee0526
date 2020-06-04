@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="BIG5">
+<title>Insert title here</title>
+</head>
+<body>
+<a href="../examServlet" target=_blank>day4-examServlet</a>
+<form action="../examServlet" method="post">
+帳號:<input type="text" name="user"><br>
+密碼:<input type="password" name="password"><br>
+<input type="submit" value="確定">
+
+</form>
+
+</body>
+</html>

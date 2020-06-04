@@ -13,3 +13,6 @@
 1591272021932	Move 3 resources to 'WebContent'
 1591272953774	Copy file
 1591272958507	Delete element
+1591277702578	Rename compilation unit 'exam.java'
+1591277903165	Rename type 'examServlet'
+1591278173569	Rename compilation unit 'examServlet1.java'
