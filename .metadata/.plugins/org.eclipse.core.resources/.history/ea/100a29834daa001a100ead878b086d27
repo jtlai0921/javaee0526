@@ -5,7 +5,6 @@ import java.io.PrintWriter;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -27,11 +26,9 @@ public class test5Servlet extends HttpServlet {
 		String name=request.getParameter("name");
 		
 		out.println("©m¦W:"+name);
-		Cookie co=new Cookie(name,name);
-		co.setMaxAge(5);			
-		response.addCookie(co);
 		out.println("<a href=test5_2 target=_blank>test5_2</a>");
 		
+		out.println("<a href=test5_2 target=_blank>test5_2</a>");
 		
 	}
 

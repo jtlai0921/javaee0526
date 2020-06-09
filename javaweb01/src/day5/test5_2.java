@@ -5,6 +5,7 @@ import java.io.PrintWriter;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -23,8 +24,9 @@ public class test5_2 extends HttpServlet {
 		response.setContentType("text/html;charset=utf-8");
 		PrintWriter out=response.getWriter();
 		String name=request.getParameter("name");
-		
-		out.println("©m¦W:"+name);
+
+		Cookie[] Name=request.getCookies();
+		out.println("©m¦W:"+name.getClass());
 	}
 
 }
