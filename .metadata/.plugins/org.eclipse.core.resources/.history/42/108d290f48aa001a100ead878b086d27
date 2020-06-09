@@ -26,7 +26,6 @@ public class test5Servlet extends HttpServlet {
 		String name=request.getParameter("name");
 		
 		out.println("©m¦W:"+name);
-		out.println("<a href=test5_2 target=_blank>test5_2</a>");
 		
 
 	}

@@ -10,15 +10,14 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 
-@WebServlet("/test5")
-public class test5Servlet extends HttpServlet {
+@WebServlet("/test5_2")
+public class test5_2 extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
-   
-    public test5Servlet() {
+        public test5_2() {
         super();
+        // TODO Auto-generated constructor stub
     }
-
 
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		response.setContentType("text/html;charset=utf-8");
@@ -26,10 +25,6 @@ public class test5Servlet extends HttpServlet {
 		String name=request.getParameter("name");
 		
 		out.println("©m¦W:"+name);
-		out.println("<a href=test5_2 target=_blank>test5_2</a>");
-		
-
 	}
 
-	
 }
