@@ -9,14 +9,14 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
-  <!--  
+   
  <servlet>
- 	<servlet-name>test5Servlet</servlet-name>
+ 	<servlet-name>test5Servlet</servlet-name><!-- «Å§iservletª«¥ó¦W -->
  	<servlet-class>day5.test5Servlet</servlet-class>
  </servlet>
  <servlet-mapping>
  	<servlet-name>test5Servlet</servlet-name>
  	<url-pattern>/abc</url-pattern>
  </servlet-mapping> 
- --> 
+ 
 </web-app>

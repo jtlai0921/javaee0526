@@ -8,20 +8,18 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 
-@WebServlet("/abc")
-public class test5Servlet extends HttpServlet {
+@WebServlet("/test5_2Servlet")
+public class test5_2Servlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
-   
-    public test5Servlet() {
+        public test5_2Servlet() {
         super();
+        // TODO Auto-generated constructor stub
     }
 
-
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		
-		response.getWriter().append("Served at: ").append(request.getContextPath());
+		// TODO Auto-generated method stub
+		doGet(request, response);
 	}
 
-	
 }
