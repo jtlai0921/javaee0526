@@ -34,6 +34,8 @@ m.setName("teacher");
 x*y=<%=x*y%><br>
 20*5=<%=cal(20,5) %><br>
 ·|­û¦WºÙ=<%=m.getName() %>
-
+<a href="ex3.jsp">ex3</a>
+<hr>
+<%@include file="message.jsp" %>
 </body>
 </html>
