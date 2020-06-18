@@ -1,5 +1,9 @@
 <%@ page language="java" contentType="text/html; charset=BIG5"
-    pageEncoding="BIG5"%>
+    pageEncoding="BIG5"
+    import="day8.member"
+    
+    
+    %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -21,9 +25,15 @@ System.out.println("x*y="+x*y);
 int x=10;
 int y=20;
 System.out.println("x*y="+x*y);
+
+member m=new member();
+m.setName("teacher");
+
 %>
 <br>
 x*y=<%=x*y%><br>
-20*5=<%=cal(20,5) %>
+20*5=<%=cal(20,5) %><br>
+·|­û¦WºÙ=<%=m.getName() %>
+
 </body>
 </html>
