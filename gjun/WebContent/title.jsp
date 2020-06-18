@@ -1,7 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=BIG5"
-    pageEncoding="BIG5"
-    import="java.util.Date"
-    %>
+    pageEncoding="BIG5"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,9 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-<%
-Date d=new Date();
-%>
-<%=d.getYear()+1900 %>年<%=d.getMonth()+1 %>月<%=d.getDate() %>日
+<h3>GJUN會員管理系統</h3>
 </body>
 </html>
