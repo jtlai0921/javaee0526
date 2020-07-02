@@ -1,0 +1,47 @@
+@charset "BIG5";
+#header1
+{
+	
+}
+
+.header
+{
+	background-color:#ff0000;
+	height:150px;
+	width:50%;
+	
+	
+}
+
+.nav
+{
+	background-color:#aa0000;
+	height:50px;
+	width:50%;
+	
+}
+
+.sideBar
+{
+	background-color:#aa8800;
+	height:300px;
+	width:50%;
+}
+
+.content
+{
+	background-color:#995500;
+	height:300px;
+	width:50%;
+	font-size:24px;
+	color:blue;
+	font-family:BRoadWay;
+}
+
+.footer
+{
+	background-color:#88dd11;
+	height:100px;
+	width:50%;
+	
+}

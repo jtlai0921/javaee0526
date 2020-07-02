@@ -1,0 +1,17 @@
+@charset "BIG5";
+		h1
+		{
+			color:red;
+			background-color:black;
+			
+		}
+		h2
+		{
+			color:blue;
+			background-color:yellow;
+		}
+		h3
+		{
+			color:yellow;
+			background-color:blue;
+		}
