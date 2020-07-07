@@ -1,17 +1,31 @@
 @charset "BIG5";
-		h1
-		{
-			color:red;
-			background-color:black;
-			
-		}
-		h2
-		{
-			color:blue;
-			background-color:yellow;
-		}
-		h3
-		{
-			color:yellow;
-			background-color:blue;
-		}
+.header
+{
+	width:60%;
+	height:120px;
+	margin-left:20%;
+	background-color:#314438;
+	color:white;
+	padding-top:30px;
+	text-align:center;
+	font-size:24px;
+	
+}
+.content
+{
+	width:60%;
+	height:500px;
+	margin-left:20%;
+	background-color:#CCDAD2;
+}
+.footer
+{
+	width:60%;
+	height:80px;
+	margin-left:20%;
+	background-color:#25332A;
+	color:white;
+	padding-top:20px;
+	text-align:center;
+	font-size:14px;
+}

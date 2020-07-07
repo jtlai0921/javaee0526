@@ -4,45 +4,38 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-import Model.member;
+import Model.porder;
 
 public interface implDao {
-	//資料庫連線方法
+	//建立連線Connection方法
 	static Connection getDb()
 	{
-		String url="jdbc:mysql://localhost:3305/gjun";
+		Connection conn=null;
+		String url="jdbc:mysql://localhost:3306/gjun";
 		String user="root";
 		String password="1234";
+		
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
-			Connection conn=DriverManager.getConnection(url, user, password);
+			conn=DriverManager.getConnection(url, user, password);
 			return conn;
 			
 		} catch (ClassNotFoundException e) {
-			
+			// TODO Auto-generated catch block
 			e.printStackTrace();
-			
-			return null;
+			System.out.println("no Driver");
+			return conn;
 		} catch (SQLException e) {
-			
+			// TODO Auto-generated catch block
 			e.printStackTrace();
-			return null;
+			System.out.println("no connection");
+			return conn;
 		}
+		
 	}
 	
-	
-	//新增會員物件
-	void add(member m);
-	
-	//讀取會員
-	String query();
-	
-	
-	//更新修改會員
-	void update(int id,member m);
-	
-	//刪除會員
-	void delete(int id);
+	//新增訂單
+	void add(porder p);
 	
 
 }
