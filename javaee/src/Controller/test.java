@@ -7,21 +7,27 @@ import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 import javax.persistence.Query;
 
-import Model.member;
+import Model.member1;
 
 public class test {
 
 	public static void main(String[] args) {
 		EntityManagerFactory emf=Persistence.createEntityManagerFactory("gjun");
 		EntityManager em=emf.createEntityManager();
-		Query q=em.createQuery("select m from member m order by m.id desc");
+		//Query q=em.createQuery("select m from member m order by m.id desc");
+		/*Query q=em.createQuery("select m from member m where m.name=?1");		
+		q.setParameter(1, "abc");*/
 		
+		Query q=em.createQuery("select m from member m where m.id>=?1 and m.id<=?2");
+		
+		q.setParameter(1, 4);
+		q.setParameter(2, 10);
 		List l=q.getResultList();
 		
 		for(Object o:l)
 		{
-			member m=(member)o;
-			System.out.println(m.getId()+","+m.getName()+","+m.getUsername());
+			member1 m=(member1)o;
+			System.out.println(m.getId()+","+m.getName()+","+m.getName());
 		}
 		
 		
